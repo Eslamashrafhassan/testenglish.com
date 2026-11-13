@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#102b3f">
+<title>English Listening & Speaking Quiz</title>
+<link rel="stylesheet" href="style.css"></head>
+<body><main class="shell"><div class="brand"><span class="brand-mark">Aa</span><span>English practice</span></div>
+<header class="hero"><div class="eyebrow">Listening · Speaking · Vocabulary</div><h1>English skills check</h1><p>Listen carefully, speak each phrase aloud, and check your understanding of useful English vocabulary. You have 20 minutes.</p></header>
+<section id="intro" class="card"><div class="topline"><div><span class="pill">⏱ 20 minutes</span></div><span class="muted">31 questions · 2 sections</span></div><h2>Before you begin</h2><p class="muted">Enter your name and email. In Section 1, play each phrase and repeat it aloud. You can record your voice or type what you said. Then choose the closest version of the phrase you heard. Section 2 checks word meanings.</p><div class="row"><div class="field"><label for="studentName">Student name</label><input id="studentName" type="text" placeholder="Your name" autocomplete="name" required></div><div class="field"><label for="studentEmail">Email address</label><input id="studentEmail" type="email" placeholder="you@example.com" autocomplete="email" required></div></div><div class="actions"><button class="btn" id="startBtn">Start quiz</button></div><p class="muted">Your answers stay in this browser session and are not sent anywhere.</p></section>
+<section id="quiz" class="card hidden"><div class="topline"><span class="pill" id="sectionPill">Section 1 of 2</span><span class="timer" id="timer">20:00</span></div><div class="progress"><span id="progressFill"></span></div><div class="qnum" id="qnum"></div><div class="section-head" id="sectionTitle"></div><div class="prompt" id="prompt"></div><div id="listeningArea"></div><div id="answerArea"></div><div class="actions"><button class="btn secondary" id="backBtn">Back</button><button class="btn" id="nextBtn">Next question</button></div><div class="foot">You can move back and change answers before submitting.</div></section>
+<section id="results" class="card hidden"></section></main>
+<script src="script.js" defer></script></body></html>
+
